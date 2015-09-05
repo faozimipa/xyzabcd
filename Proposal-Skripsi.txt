@@ -1,0 +1,224 @@
+
+
+HYBRID MOBILE GEOGRAPHIC INFORMATION SYSTEM APP DENGAN ARSITEKTIUR MODEL-VIEW –CONTROLLER (MVC) PADA SISTEM INFORMASI ALUMNI FMIPA UNIVERSITAS NEGERI SEMARANG 
+
+Proposal Skripsi
+
+
+oleh
+Faozi
+4111411020
+
+
+JURUSAN MATEMATIKA
+FAKULTAS MATEMATIKA DAN ILMU PENGETAHUAN ALAM
+UNIVERSITAS NEGERI SEMARANG
+ 2015
+
+DEPARTEMEN PENDIDIKAN DAN KEBUDAYAAN
+FAKULTAS MATEMATIKA DAN ILMU PENGETAHUAN ALAM
+UNIVESITAS NEGERI SEMARANG
+
+
+
+
+DAFTAR ISI
+Halaman
+HALAMAN JUDUL 	i
+HALAMAN PENGESAHAN 	ii
+DAFTAR ISI 	iii
+BAB I   PENDAHULUAN 	1
+1.1 LATAR BELAKANG 	1
+1.2 RUMUSAN MASALAH 	3
+1.3 BATASAN MASALAH	3
+1.4 TUJUAN PENELITIAN 	4
+1.5 MANFAAT PENELITIAN 	4
+BAB II  TINJAUAN PUSTAKA	5
+2.1 TINJAUAN PUSTAKA	5
+2.2 LANDASAN TEORI	6
+BAB III	METODE PENELITIAN	13
+3.1 OBJEK PENELITIAN 	13
+3.2 TEKNIK PENGUMPULAN DATA 	13
+DAFTAR PUSTAKA	15
+    
+
+
+BAB I
+PENDAHULUAN
+
+1.1. LATAR BELAKANG
+    Perkembangan teknologi informasi yang semakin pesat mendorong setiap individu atau kelompok harus memanfaatkan teknologi informasi dalam kehidupan sehari hari. Penggunaan komputer dan alat alat komunikasi lainnya seolah menjadi kebutuhan primer. Perusahaan perusahaan besar menerapkan komputer sebagai alat kerja utama mereka. Namun, seiring dengan perkembangan zaman berbagai jenis komputerpun terus berkembang mulai dari computer lama, computer dengan GUI yang bagus, penggunaan computer jinjing atau laptop hingga penggunaan telepon pintar (Smartphone).
+    Berdasarkan survey eMarketer (2014), Pengguna smartphone di dunia pada tahun 2015 hampir mencapai dua miliar. Diprediksi jumlah tersebut akan terus meningkat seiring dengan banyaknya permintaan, penawaran dan berkembangnya aplikasi aplikasi yang mendukung penggunaan smartphone. Indonesia sendiri saat ini menduduki peringkat ke tujuh dalam jumlah pengguna smartphone terbanyak yakni 52, 2 juta pengguna smartphone. Jumlah tersebut diestimasikan akan mencapai 103 juta pengguna pada tahun 2018 sehingga Indonesia akan menduduki peringkat ke-empat dalam jumlah pengguna smartphone terbanyak.
+    Banyaknyaaa pengguna smartphone tersebut menuntut perushaan atau instansi untuk membuat aplikasi-aplikasi mereka bisa digunakan pada Smartphone agar perusahaan atau instansi tersebut tetap eksis dan mampu bersaing dengan perusahaan atau instansi lainnya.
+    Universitas Negeri Semarang sebagai salah satu instansi juga berusaha mengikuti perkembangan tersebut. Hal ini terbukti dengan adanya beberapa matakuliah yang mengajarkan bagaimana proses produksi aplikasi Smartphone atau mobile app.   
+    Menurut Shahbudin (2013: 1), Berbagai jenis smartphone yang berada di pasaran umumnya menggunakan resolusi, sistem operasi (platform), kecepatan prosesor, kapasitas penyimpanan dan bahasa pemrograman yang berbeda-beda untuk pembuatan aplikasinya. Keadaan tersebut mempersulit untuk mendesain aplikasi untuk device atau platform yang berbeda-beda dalam waktu yang singkat untuk dipasarkan. Misalkan sebuah perusahaan membuat sebuah aplikasi untuk platform android menggunakan bahasa pemrograman Java namun karena pengguna smartphone tidak hanya menggunakan platform android teapi juga Platform iOS, platform Windows phone, Platform Blackbary dan platform lainnya maka perusahaan tersebut perlu membuat aplikasi yang sama dengan bahasa yang berbeda seperti penggunaan bahasa pemrograman C# untuk platform Windows Phone, penggunaan bahasa pemrograman C++ untuk iOS. Hal tersebut tentu membutuhkan waktu dan biaya yang lebih banyak serta pengetahuan yang lebih mengenai bahasa pemrograman yang berbeda-deda.
+    Menurut Andrade (2015: 34), Arsitektur multi platform yang dapat digunakan untuk mengatasi masalah tersebut yaitu dengan menggunakan metode aplikasi web (Web application development) atau menggunakan metode aplikasi hybrid (Hybrid application development).
+     
+    
+    
+    
+    
+1.2. RUMUSAN MASALAH
+    Berdasarkan latar belakang di atas, rumusan masalah dalam penelitian ini adalah sebagai berikut.
+(1) Bagaimana merancang dan membangun sistem informasi alumni matematika Universitas Negeri Semarang berbasis Multi-Platform Mobile Apps menggunakan arsitektur MVVM?
+(2) Bagaimana implementasi rancang bangun sistem informasi alumni matematika Universitas Negeri Semarang berbasis Multi-Platform Mobile Apps menggunakan arsitektur MVVM?
+    
+1.3. BATASAN MASALAH
+    Pada penelitian ini diperlukan batasan-batasan agar tujuan penelitian dapat tercapai. Adapun batasan masalah yang dibahas pada penelitian ini adalah sebagai berikut.
+(1) Sistem ini menggunakan sampel data dosen dan mahasisiswa Jurusan Matematika Universitas Negeri Semarang.
+(2) Perancangan aplikasi ini menggunakan metode atau arsitektur Model-View-Controller (MVC).
+(3) Implementasi sistem ini pada perangkat selular berupa smartphone dengan sistem operasi yang compatible dengan Cordova.
+(4) Sistem ini akan dibangun menggunakan Ionic Framework yang menggunakan bahasa pemrograman Javascript pada sisi client dan   menggunakan bahasa pemrograman PHP yang digunakan untuk menghubungkan program dengan basis data yang ada (MySQL) di sisi Server. 
+
+
+
+1.4. TUJUAN PENELITIAN
+      Tujuan penelitian ini adalah sebagai berikut.
+1. Membangun program aplikasi sistem informasi alumni FMIPA Universitas Negeri Semarang berbasis Hybrid GIS Mobile Apps menggunakan arsitektur MVC.
+2. Untuk mengembangkan layanan informasi alumni FMIPA Universitas Negeri Semarang yang lebih baik.
+
+1.5. MANFAAT PENELITIAN
+      Manfaat penelitian ini adalah sebagai berikut.
+1. Sebagai sumber ilmu pengetahuan yang dapat dijadikan bahan acuan untuk perluasan wawasan dan mengaplikasikan yang didapat di bangku kuliah.
+2. Sebagai bahan studi kasus bagi pembaca dan acuan bagi mahasiswa, terutama bagi yang ingin melakukan penelitian sejenis, juga menambah khasanah perpustakaan yang berguna bagi pembaca.
+3. Sebagai salah satu media alternative dalam mengakses sistem informasi alumni sekolah atau perguruan tinggi.
+4. Dapat mengakses sistem informasi akademik labschool Universitas Negeri Semarang dimanapun kapanpun secara mudah, cepat dan akurat.
+
+
+BAB II
+TINJAUAN PUSTAKA
+
+2.1. TINJAUAN PUSTAKA
+    Penelitian terdahulu yang digunakan sebagai acuan peneliti untuk mendukung penelitian ini adalah jurnal-jurnal dan skripsi yang peneliti sebutkan berikut.
+    Pembuatan Aplikasi berbasis Android sudah banyak dikembangkan oleh banyak peneliti. Contohnya penelitian pada tahun 2012 oleh Febriani Kusumastuti melakukan penelitian mengenai Aplikasi Perpustakaan Online berbasis Android dan PHP menggunakan Protokol JSON. Kemudian Andri Anto Tri Susilo (2014) melakukan penelitian tentang Aplikasi Data Mahasiswa berbasis Android Studi Kasus Stmik-Muria.
+    Sedangkan penelitian untuk Sistem Informasi akademik berbasis Android juga sudah banyak dikembangkan. Contohnya penelitian pada tahun 2013 oleh Harfiyan Shia dan Teddy Marcus Zakaria (2013) melakukan penelitian mengenai sistem akademik terpadu di Universitas Kristen Maranatha dengan Menggunakan Mono for Android. Selain itu, dalam sebuah skripsi oleh Suryana Wijaya (2013) juga melakukan penelitian tentang sistem informasi akademik Universitas Islam Nergeri (UIN) Sunan Kalijaga Yogyakarta berbasis Android.
+    Kemudian penelitian terkait aplikasi berbasis Client Server juga banyak dikembangkan oleh peneliti. Contohnya penelitian tentang Sistem Informasi Pemesanan Makanan dan Minuman Pada Omahe Café And Resto Berbasis Client Server dengan Platform Android oleh Dian Galih Tegar (2013).
+     
+     
+     
+     
+     
+     
+     
+2.2. LANDASAN TEORI
+2.2.1. Sistem Informasi
+    Menurut Ladjamudin (2005: 13), pengertian dari sistem informasi adalah suatu sistem yang dibuat oleh manusia untuk mencapai suatu tujuan yaitu menyampaikan informasi serta berisi sekumpulan prosedur organisasi yang pada saat dilaksanakan akan memberikan informasi bagi pengambil keputusan dan/atau untuk mengendalikan organisasi.
+    Sistem  informasi  dapat  berupa  gabungan dari  beberapa  elemen  teknologi  berbasis  komputer yang  saling  berinteraksi  dan  bekerja  sama berdasarkan  suatu  prosedur  kerja  yang  telah ditetapkan,  dimana  memproses  dan  mengolah  data menjadi  suatu  bentuk  informasi  yang  dapat digunakan dalam mendukung keputusan.
+    
+2.2.2. FMIPA UNNES
+    Berdasarkan Keputusan Menteri PTIP No. 40 tahun 1965, 8 Maret 1965, disahkan dengan Keputusan Presiden No. 271 tahun 1965, 14 September 1965. Tanggal 30 Maret 1965 IKIP Semarang berdiri, terdiri atas: Fakultas Ilmu Pendidikan (FIP), Fakultas Keguruan Sastra dan Seni (FKSS), Fakultas Keguruan Ilmu Sosial (FKIS), Fakultas Keguruan Ilmu Eksakta (FKIE), dan Fakultas Keguruan Teknik (FKT). FKIE terdiri atas: Jurusan Ilmu Pasti, Jurusan Ilmu Alam, Jurusan Ilmu Kimia, dan Jurusan Ilmu Hayat. 
+    Dalam perjalanannya Fakultas Keguruan Ilmu Eksakta (FKIE) kemudian mengalami perubahan nama yaitu berdasarkan Keputusan Presiden No. 52 tahun1982. Tentang perubahan nama Fakultas Keguruan Ilmu Eksakta (FKIE) menjadi Fakultas Pendidikan Matematika dan Ilmu Pengetahuan AlamFakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam (FPMIPA), yang terdiri atas Jurusan Pendidikan Matematika, Jurusan Pendidikan Fisika, Jurusan Pendidikan Kimia, dan Jurusan Pendidikan Biologi. 
+    Tak hanya perubahan itu Keputusan Presiden No. 124 tahun 1999 tentang Perubahan IKIP Semarang, Bandung, dan Medan menjadi Universitas, sehingga IKIP Semarang menjadi Universitas Negeri Semarang. Pada tahun yang sama Keputusan Menteri Pendidikan dan Kebudayaan No. 278/O/1999 tentang Organisasi dan Tata Kerja Universitas Negeri Semarang, dan No. 225/O/2000 tentang Statuta UNNES memutuskan bahwa Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam (FPMIPA) berubah menjadi Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) yang terdiri atas empat jurusan dan sembilan program studi (prodi), yaitu:
+(1) Jurusan Matematika, terdiri atas: Prodi Pendidikan Matematika S1, Prodi Matematika S1, Prodi Statistika Terapan dan Komputasi D3.
+(2) Jurusan Fisika, terdiri atas: Prodi Pendidikan Fisika S1 dan Prodi Fisika S1
+(3) Jurusan Kimia, terdiri atas: Prodi Pendidikan Kimia S1 dan Prodi Kimia S1
+(4) Jurusan Biologi, terdiri atas: Prodi Pendidikan Biologi S1 dan Prodi Biologi S1
+    (5) Prodi Pendidikan IPA S1 (di bawah koordinasi langsung fakultas)
+
+2.2.3. Aplikasi Hybrid 
+    Platform merupakan dasar atau tempat dimana sistem operasi bekerja, atau dapat dikatakan Platform adalah dasar dibuat atau dijalankannya proses-proses. Sebuah Platform terdiri dari sistem operasi yaitu program sistem koordinasi komputer yang memberikan perintah-perintah kepada prosesor dan hardware untuk melakukan operasi-operasi logis dan mengatur pergerakan data di komputer. 
+    Cross platform ialah kemampuan dari bahasa pemrograman yang memungkinkan programer untuk dapat menjalankan software di beberapa sistem operasi (OS) yang berbeda. Umumnya bahasa pemrograman yang memiliki kemampuan cross platform adalah open source. Software dari cross platform yang dapat bekerja di hampir semua sistem dengan atau tanpa modifikasi dapat disebut juga sebagai multi platform.
+
+2.2.4. Sistem Informasi Geografis
+    Menurut Ellis (2009: 12), Geographic Information System (GIS) adalah sistem berbasis computer yang mampu menangani data bereferensi geografi yaitu pengambilan data, mempersiapakan data, menejemen data, penginputan data, pengolahan data, memanipulasi data, menganalisis data dan mempresentasikan data. 
+    GIS pertama kali diperkenalkan di Indonesia pada tahun 1972 dengan nama Data Banks for Development. Menurut Longley (2005: 42), Munculnya istilah Sistem Informasi Geografis seperti sekarang ini setelah dicetuskan oleh General Assembly dari International Geographical Union di Ottawa Kanada pada tahun 1967. Dikembangkan oleh Roger Tomlinson, yang kemudian disebut CGIS (Canadian GIS-SIG Kanada). CGIS digunakan untuk menyimpan, menganalisa dan mengolah data yang dikumpulkan untuk inventarisasi Tanah Kanada (CLI-Canadian Land Inventory) yang merupakan sebuah inisiatif untuk mengetahui kemampuan lahan di wilayah pedesaan Kanada dengan memetakan berbagai informasi pada tanah, pertanian, pariwisata, alam bebas, unggas dan penggunaan tanah.
+    Sistem Informasi Geografis dapat dimanfaatkan untuk mempermudah dalam mendapatkan data-data yang telah diolah dan tersimpan sebagai atribut suatu lokasi atau obyek. Data-data yang diolah dalam GIS pada dasarnya terdiri dari data spasial dan data atribut dalam bentuk digital. 
+    Sistem ini merelasikan data spasial (lokasi geografis) dengan data non spasial, sehingga para penggunanya dapat membuat peta dan menganalisa informasinya dengan berbagai cara. GIS merupakan alat yang handal untuk menangani data spasial, dimana dalam data dikelola dalam bentuk digital sehingga data ini lebih padat dibanding dalam bentuk peta cetak, tabel, atau dalam bentuk konvensional lainya yang akhirnya dapat mempercepat pekerjaan dan meringankan biaya yang diperlukan. 
+    
+2.2.5. Mobile GIS
+    Menurut Shi (2009: 2210) Mobile GIS merupakan integrasi teknologi yang mengintegrasikan Mobile Computing, Internet dan Geographic Information System. Mobile GIS telah diterapkan pada ruang seperti sistem layanan lokasi (Location-based Services). Menggunakan Mobile GIS pengguna dapat mencari data spasial, data temporal dan atribut yang melekat pada data tersebut dengan pembatasan lokasi. Data tersebut dapat diakses kapanpun dan dimanapun asalkan ada jaringan internet.
+    
+2.2.6. Javascript 
+Angularjs 
+    Menurut Jain (2014: 17) Angularjs merupakan kerangka kerja MVC javascript atau Javascript MVC Framework yang dibuat oleh Google untuk membuat arsitektur web dan maintanble aplikasi web.Angularjs dibuat dengan filosofi bahwa pendeklarasian kode lebih  dari kode yang  yang penting untuk membuat user interface (UI) dan komponen web secara bersama sama. Angularjs tidak hanya sebuah library tetapi, angularjs merupakan kerangka kerja Javascript yang mengembangkan HTML menjadi lebih expressive dan menjadi mudah dibaca. Angularjs memungkinkan untuk mendekorasi HTML dengan markup khusus yang tersinkronisasi dengan Javascript dengan memisahkan antara logika aplikasi dan tampilan aplikasi, sehingga aplikasi lebih kaya fiitur dan interaktif. Selain itu, dengan Angularjs penulisan kode lebih singkat dan effisien.
+
+2.2.7. Ionic Framework
+Eclipse 
+    Sekarang, siapapun yang memiliki pengetahuan tentang HTML, CSS, dan JavaScript dapat membangun aplikasi mobile (Hybrid Mobile Apps). Salah satu keuntungan utama menggunakan teknologi web untuk membangun aplikasi Anda adalah Portabilitas. Menggunakan packager/compiler, seperti PhoneGap/Cordova, Anda akan dapat mendistribusikan aplikasi Anda pada banyak platform yang berbeda.
+    
+    Ionic Framework adalah salah satu framework yang dibuat dengan khusus dan fokus untuk membantu proses pembuatan aplikasi mobile (Hybrid Mobile Apps). Dibuat dan di-maintain oleh para designer dan developer yang memiliki passion tentang teknologi web. Dengan memanfaatkan keunggulan AngularJS, Ionic mampu membuat proses development mobile app dengan HTML5 menjadi lebih mudah dan menakjubkan. 
+    
+2.2.8. MySQL
+    MySQL adalah Relational Basis data Management Sistem (RDBMS) yang  didistribusikan secara  gratis  dibawah  lisensi  GPL  (General  Public License)  dimana  setiap  orang  bebas  untuk menggunakan MySQL, namun tidak boleh  dijadikan produk  turunan  yang  bersifat  closed  source  atau komersial.
+    MySQL sebenarnya merupakan turunan salah satu konsep utama dalam basis data sejak lama, yaitu SQL (Structured Query Language). SQL adalah sebuah konsep pengoperasian basis data, terutama untuk pemilihan atau seleksi dan pemasukan data, yang memungkinkan pengoperasian data dikerjakan dengan mudah secara otomatis.
+    Menurut Suehring (2009: 118), MySQL memiliki beberapa fitur unggulan seperti gratis, lebih stabil, tidak perlu banyak requirement saat menginstal atau saat menjalankan aplikasi, cepat dan mudah digunakan, serta kaya akan fitur untuk aplikasi web.   
+    
+2.2.9. PHP (Hypertext Preprocessor)
+    PHP (Hypertext Preprocessor)  merupakan bahasa  pemrograman  yang  difungsikan untuk membangun suatu website dinamis. PHP menyatu dengan  kode HTML, HTML digunakan sebagai pembangun atau pondasi dari  kerangka layout website sedangkan PHP difungsikan sebagai pemroses data, sehingga dengan adanya PHP sebuah web akan mudah untuk di-maintenance.
+    PHP  merupakan  bahasa  pemrograman  yang berjalan pada sisi server sehingga PHP disebut juga sebagai  bahasa  Server  Side  Scripting  artinya  bahwa dalam  setiap  menjalankan  PHP  membutuhkan  web server untuk menjalankanya. Adapun proses eksekusi kode  PHP  didalam  sisi  server  ditunjukan  oleh Gambar 3.
+
+Gambar 3. Skema cara kerja PHP
+Keterangan Gambar 3 adalah sebagai berikut.
+1. Client mengakses kode PHP melewati web server.
+2. Web  server  akan  membaca  kode  PHP dari dokumen yang tersimpan
+3. Kode yang dijalankan oleh web server akan diterjemahkan oleh PHP engine.
+4. Kode PHP yang telah diterjemahkan akan diubah menjadi format yang dapat dibaca di web browser.
+5. File yang telah diterjemahkan akan dikirim kembali ke web server untuk ditampilkan ke web browser.
+6. Web server menampilkan kode yang telah diterjemahkan ke web browser.
+
+2.2.10. Aplikasi Client Server
+    Client Server dibentuk oleh 3  komponen dasar,  yaitu  client, middleware,  dan server.   Hubungan antara  ketiga  komponen  tersebut digambarkan seperti yang ditunjukkan pada Gambar 4.
+    
+
+Gambar 4.  Komponen Dasar  Client Server
+
+a. Client : merupakan terminal yang digunakan oleh  pengguna  untuk meminta layanan tertentu yang di butuhkan dan juga digunakan untuk menerima hasil  pemrosesan yang diminta dari server.
+b. Middleware : merupakan komponen perantara yang  memungkinkan client dan server untuk saling terhubung dan  berkomunikasi  satu sama lain.
+c. Server : merupakan pihak yang menyediakan  layanan server  dapat  berupa basis data SQL
+
+
+
+
+
+
+
+
+
+BAB III
+METODE PENELITIAN
+
+3.1. Objek Penelitian
+    Objek penelitian ini adalah sistem informasi akademik Labschool Universitas Negeri Semarang.
+    
+3.2. Teknik Pengumpulan Data
+    Teknik pengumpulan data yang akan digunakan pada penelitian ini adalah sebagai berikut.
+1. Pengumpulan Data
+a. Studi Pustaka
+Dalam studi pustaka ini digunakan sumber pustaka yang relevan yang digunakan untuk mengumpulkan informasi yang diperlukan dalam penelitian. Studi pustaka dengan mengumpulkan sumber pustaka yang dapat berupa buku, teks, makalah dan sebagainya.
+b. Wawancara
+Wawancara dilakukan untuk mendapat data secara rinci sistem yang ada dari berbagai sumber yang diwawancarai. Teknik Wawancara ini penulis gunakan untuk mendapatkan data dan informasi yang berkaitan dengan sistem informasi akademik Labschool Universitas Negeri Semarang.
+2. Perancangan Sistem
+Merancang Sistem Informasi Akademik Labschool Universitas Negeri Semarang Berbasis Client Server Menggunakan Platform Android.
+3. Pengembangan Sistem
+Dalam sistem ini pengembangannya menggunakan Prototype Models. Model ini menggambarkan hal-hal penting dari sistem informasi yang akan datang. Prototipe sistem informasi bukanlah merupakan sesuatu yang lengkap, tetapi sesuatu yang harus dimodifikasi kembali, dikembangkan, ditambahkan atau digabungkan dengan sistem informasi yang lain bila perlu. Menurut Pressman (2002), tahap-tahap dalam pengembangan sistem dengan menggunakan metode Prototype Models dapat dilihat pada Gambar 5.
+
+Gambar 5.  Fase Prototype Models
+
+4. Implementasi Sistem
+Implementasi sistem ini adalah, aplikasi ini berbasis client server. Dalam membangun sistem ini menggunakan program Eclipse yang menggunakan bahasa pemrograman Java dengan basis data yang digunakan adalah MySQL. Kemudian aplikasi ini juga menggunakan bahasa pemrograman PHP yang digunakan untuk menghubungkan program dengan basis data yang ada di MySQL.
+
+DAFTAR PUSTAKA
+Andrade, Paulo R. M. de & Albuquerque Adriano B. 2015. Cross Platform App A Comparative Study. International Journal of Computer Science & Information Technology (IJCSIT), 7(1):33-40.
+Shahbudin, F.E. & Chua. 2013. Design Patterns for Defeloping High Efficiency Mobile Application. J Inform tech Softw Eng, 3(212): 1-9.
+Jain, Nilesh et al. 2014. AngularJS: A Modern MVC Framework in Javascript. Journal of Global Research, 5(12):17-23.
+Suehring, S., Converse, T. & Park J.  2009. PHP 6 and MySQL 6 Bible. Indianapolis: Wiley Publishing.
+eMarketer. 2014. 2 Billion Customers Worldwide Smartphones by 2016. Tersedia di http://www.emarketer.com/Article/2-Billion-Consumers-Worldwide-Smartphones-by-2016/1011694 [diakses 31-08-2015].
+Huisman, O. & By R. A. de. 2009. Principles of Geograpic Information Systems. Enschede: The International Institute for Geo-Information Science and Earth Observation (ITC).
+FMIPA. 2015. Sejarah. Tersedia di http://mipa.unnes.ac.id/index1469.html?page_id=18 [diakses 31-08-2015].
+Longley, P. A. et al. 2005. Geographical Information Systems and Science. Chichester: John Wiley & Sons Ltd.
+Shi, W. et al. 2009. A Dynamic Data for Mobile GIS. ELSEVIER Computer and Geoscience, 35(2009):2210-2221
+
+
+
+
+10
+
+
+
+
+
+
+
+
+
+
