@@ -190,7 +190,7 @@ Wawancara dilakukan untuk mendapat data secara rinci sistem yang ada dari berbag
 2. Perancangan Sistem
 Merancang Sistem Informasi Akademik Labschool Universitas Negeri Semarang Berbasis Client Server Menggunakan Platform Android.
 3. Pengembangan Sistem
-Dalam sistem ini pengembangannya menggunakan Prototype Models. Model ini menggambarkan hal-hal penting dari sistem informasi yang akan datang. Prototipe sistem informasi bukanlah merupakan sesuatu yang lengkap, tetapi sesuatu yang harus dimodifikasi kembali, dikembangkan, ditambahkan atau digabungkan dengan sistem informasi yang lain bila perlu. Menurut Pressman (2002), tahap-tahap dalam pengembangan sistem dengan menggunakan metode Prototype Models dapat dilihat pada Gambar 5.
+Dalam sistem ini pengembangannya menggunakan Prototype Models. Model ini menggambarkan hal-hal penting dari sistem informasi yang akan datang. Prototipe sistem informasi bukanlah merupakan sesuatu yang lengkap, tetapi sesuatu yang harus dimodifikasi kembali, dikembangkan, ditambahkan atau digabungkan dengan sistem informasi yang lain bila perlu. Menurut Pressman (2002), sembarangan ajah ini orang tahap-tahap dalam pengembangan sistem dengan menggunakan metode Prototype Models dapat dilihat pada Gambar 5.
 
 Gambar 5.  Fase Prototype Models
 
@@ -211,7 +211,7 @@ Shi, W. et al. 2009. A Dynamic Data for Mobile GIS. ELSEVIER Computer and Geosci
 
 
 
-10
+14
 
 
 
